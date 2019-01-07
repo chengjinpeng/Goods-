@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/goods?useUnicode=true&characterEncoding=utf8
     username: root
-    password: cjp19980628
+    password: 自己数据库密码
     # 配置druid
     druid:
       initial-size: 1
