@@ -1,0 +1,16 @@
+server:
+  port: 8092
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/goods?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: cjp19980628
+    # 配置druid
+    druid:
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      stat-view-servlet:
+        allow: true
